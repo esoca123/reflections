@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+
+El comando diff nos indica que lineas se han quitado y que lineas se han añadido en el archivo. Al fijarnos en las lineas añadidas encontramos que había una palabra mal escrita
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+
+Podemos introducir cambios y mejoras para luego provarlas. En caso de que no estemos totalmente satisfechos podemos retornar a una versión anterior, incluso cuando hay varias versiones por encima de la correcta. Siempre nos indica los
+cambios
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Fill in your answer here
+
+Controlar manualmente cuando subimos una nueva versión permite al usuario controlar el código exacto que desea pase a ser una nueva versión.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+
+Permite trabajar orientado a un proyecto, es decir no queremos versiones de un solo fichero, sino que queremos versiones del desarrollo de nuestro proyecto
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+Git log nos permite ver una historial con todos los commits hechos en el repositorio. Nos indica el usuario, la fecha, un comentario sobre los cambios lógicos realizados y finalmente el ID del commit.
+Por otra parte git diff ID_commit1 ID_commit2 nos permite ver las diferencias entre los dos commits o dos versiones.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Porque podremos virar a una versión anterior donde no teníamos los cambios que rompieron el sistema. Por otra parte podremos ver las diferencias realizadas en el proyecto para discernir que cambios son correctos y cuales no.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+Quiero usar GIT para desarrollar proyectos personales, aunque sean pequeños que me permitan trabajar desde todos los sitios, con diferentes ordenadores, o con varios desarrolladores.
+
