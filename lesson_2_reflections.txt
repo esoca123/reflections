@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Cuando iniciamos un repositorio no tenemos ningún commit y todos los ficheros se encuentran untracked. Supongo que necesitamos
+hacer que los ficheros sean "tracked" (puestos en el stage area) para posteriormente hacer el commit
+
+
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+La staging area nos permite definir que cambios viajan en cada commit.
